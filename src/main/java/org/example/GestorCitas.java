@@ -22,5 +22,12 @@ public class GestorCitas {
         }
     }
 
+    public void listarCitas() {
+        System.out.println("Lista de citas:");
+        for (CitaMedica cita : citas) {
+            System.out.println(cita);
+        }
+    }
+
 
 }
