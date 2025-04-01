@@ -27,5 +27,12 @@ public class Medico {
         this.disponible = disponible;
     }
 
-
+    @Override
+    public String toString() {
+        return "Medico{" +
+                "nombre='" + nombre + '\'' +
+                ", especialidad='" + especialidad + '\'' +
+                ", disponible=" + disponible +
+                '}';
+    }
 }
