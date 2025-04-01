@@ -15,4 +15,12 @@ public class Paciente {
         return nombre;
     }
 
+    @Override
+    public String toString() {
+        return "Paciente{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", contacto='" + contacto + '\'' +
+                '}';
+    }
 }
